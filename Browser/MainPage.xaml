@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Browser.MainPage">
+    <Grid
+        HorizontalOptions="Fill"
+        VerticalOptions="Fill"
+        Padding="16,10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ListView 
+            ItemsSource="{Binding Messages}"
+            Grid.Row="0"> 
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout 
+                        HorizontalOptions="Fill" 
+                        VerticalOptions="Fill">
+                        <Label 
+                            Text="{Binding .}" 
+                            LineBreakMode="WordWrap"
+                            MaxLines="10"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="StartAndExpand"
+                            />  
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+
+</ContentPage>

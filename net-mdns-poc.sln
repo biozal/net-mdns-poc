@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advertiser", "Advertiser\Advertiser.csproj", "{00374F34-31A6-4820-96BE-71955C64F095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Browser", "Browser\Browser.csproj", "{5895B735-9C73-4003-9E36-DED68982466D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00374F34-31A6-4820-96BE-71955C64F095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00374F34-31A6-4820-96BE-71955C64F095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00374F34-31A6-4820-96BE-71955C64F095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00374F34-31A6-4820-96BE-71955C64F095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5895B735-9C73-4003-9E36-DED68982466D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5895B735-9C73-4003-9E36-DED68982466D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5895B735-9C73-4003-9E36-DED68982466D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5895B735-9C73-4003-9E36-DED68982466D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

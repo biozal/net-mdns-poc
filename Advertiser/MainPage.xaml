@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Advertiser.MainPage">
+    <Grid
+        Padding="16,10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+       </Grid.RowDefinitions>
+        <Button 
+            Grid.Row="0"
+            Margin="0, 10"
+            x:Name="BtnChangeStatus"
+            Text="Start"
+            SemanticProperties.Hint="Starts or Stops Advertising Service"
+            Command="{Binding ChangeStatusCommand}"
+            HorizontalOptions="Center" />
+        <ListView 
+            x:Name="lvMessages"
+            ItemsSource="{Binding ItemData}"
+            Grid.Row="1"> 
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell 
+                        TextColor="White"
+                        Text="{Binding .}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>
