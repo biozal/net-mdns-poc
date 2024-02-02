@@ -9,4 +9,7 @@ This technology can be used to find other mobile apps with the same "service", t
 To learn more about this read this excellent blog article on mDNS Responder:
 https://andriydruk.com/post/mdnsresponder/
 
+I streamed building the app on YouTube for those that would like to see how it was built and why:
+[YouTube](https://www.youtube.com/watch?v=kiSDGD8MJow)
+
 This is provided AS IS with no support as it's a POC.
