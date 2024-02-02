@@ -10,6 +10,6 @@ To learn more about this read this excellent blog article on mDNS Responder:
 https://andriydruk.com/post/mdnsresponder/
 
 I streamed building the app on YouTube for those that would like to see how it was built and why:
-[YouTube](https://www.youtube.com/watch?v=kiSDGD8MJow)
+[YouTube](https://youtu.be/kiSDGD8MJow?t=4862)
 
 This is provided AS IS with no support as it's a POC.
